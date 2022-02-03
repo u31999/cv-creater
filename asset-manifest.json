@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cv-creater/static/css/main.d5b0458f.css",
-    "main.js": "/cv-creater/static/js/main.fbda3152.js",
+    "main.js": "/cv-creater/static/js/main.03f58329.js",
     "static/js/787.321a77f6.chunk.js": "/cv-creater/static/js/787.321a77f6.chunk.js",
     "static/media/imac-online-cv-builder-cv-template.png": "/cv-creater/static/media/imac-online-cv-builder-cv-template.e8f0933e5c7761fb14fa.png",
     "static/media/white.jpg": "/cv-creater/static/media/white.65e44c267bb5feadaf0b.jpg",
@@ -19,11 +19,11 @@
     "static/media/facebook-icon.jpg": "/cv-creater/static/media/facebook-icon.9e05b4a713fa723562bc.jpg",
     "index.html": "/cv-creater/index.html",
     "main.d5b0458f.css.map": "/cv-creater/static/css/main.d5b0458f.css.map",
-    "main.fbda3152.js.map": "/cv-creater/static/js/main.fbda3152.js.map",
+    "main.03f58329.js.map": "/cv-creater/static/js/main.03f58329.js.map",
     "787.321a77f6.chunk.js.map": "/cv-creater/static/js/787.321a77f6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5b0458f.css",
-    "static/js/main.fbda3152.js"
+    "static/js/main.03f58329.js"
   ]
 }
