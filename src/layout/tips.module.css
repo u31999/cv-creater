@@ -1,0 +1,133 @@
+@import url("./style-res.css");
+
+.body {
+	display: grid;
+	grid-auto-rows: 30% auto;
+	animation: fadeIn 700ms var(--fadeCubic) forwards;
+}
+
+.first-text {
+	color: var(--header-font-color);
+	text-shadow: black 2px 2px 2px;
+	display: flex;
+	width: 80%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: auto;
+	border: outset 5px var(--blueColor);
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-top: 10px;
+	box-shadow: var(--boxColor) 5px 5px 5px;
+	background-color: rgb(255 207 119 / 0.1);
+}
+
+.aricles-container {
+	height: 100%;
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+}
+.aricles-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.aricles-image img {
+	width: 120px;
+	height: 120px;
+	border-radius: 15px;
+}
+
+.aricles-title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: black;
+	font-family: cursive;
+	width: 120px;
+}
+
+.aricles-res {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: var(--header-font-color);
+}
+.aricles-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.aricles-card:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 0.3;
+	}
+	50% {
+		opacity: 0.6;
+	}
+	75% {
+		opacity: 0.8;
+	}
+	85% {
+		opacity: 0.9;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.body {
+		grid-template-rows: 10% auto;
+	}
+	.aricles-container {
+		flex-direction: column;
+		gap: 10px;
+	}
+	.aricles-card {
+		flex-direction: row;
+	}
+}
+
+@media screen and (max-height: 667px) {
+	.body {
+		display: flex;
+		flex-direction: column;
+	}
+	.aricles-image img {
+		height: 80px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.body {
+		display: flex;
+		flex-direction: column;
+	}
+	.aricles-image img {
+		height: 80px;
+	}
+}
+@media screen and (max-width: 280px) {
+	.body {
+		width: 100%;
+		overflow-x: hidden;
+	}
+	.aricles-image img {
+		width: 80px;
+	}
+}

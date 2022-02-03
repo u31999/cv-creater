@@ -1,0 +1,70 @@
+@import url("./style-res.css");
+
+.header {
+	background-color: #1f1f1f;
+	color: white;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.header div:first-child {
+	flex: 1;
+}
+.header div:last-child {
+	flex: 1.5;
+}
+.logo {
+	font-size: 25px;
+	font-weight: 900;
+	font-family: cursive;
+	color: var(--header-font-color);
+}
+.nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.nav svg {
+	font-size: 20px;
+}
+
+.nav svg:hover {
+	cursor: pointer;
+}
+
+.nav nav {
+	flex: 1;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nav nav a {
+	color: var(--header-font-color);
+	text-decoration: none;
+}
+
+.active {
+	color: white !important;
+}
+
+.nav nav a:hover {
+	cursor: pointer;
+	color: var(--header-font-color);
+}
+
+@media screen and (max-width: 540px) {
+	.header {
+		flex-direction: column;
+	}
+	.header div:first-child {
+		display: flex;
+		align-items: center;
+	}
+	.header div:last-child {
+		flex: 1;
+		align-items: center;
+		width: 100%;
+	}
+}

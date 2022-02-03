@@ -1,0 +1,97 @@
+@import url("./style-res.css");
+.body {
+	background-color: rgb(60 60 60 / 0.9);
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: space-evenly;
+	animation: fadeIn 700ms var(--fadeCubic) forwards;
+}
+
+.first-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 900;
+	color: white;
+	font-family: sans-serif;
+	text-shadow: black 2px 2px 2px;
+}
+.promotion-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.image-container img {
+	width: 170px;
+	height: 170px;
+}
+
+.list-container ul li {
+	margin: 0;
+	padding: 10px 0 10px 30px;
+	list-style: none;
+	background-image: url("../resources/check-box.jpg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 25px;
+	background-color: transparent;
+	color: #ffcf77;
+	text-shadow: black 2px 2px 2px;
+}
+
+.link-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.link-container div {
+	border: 2px outset var(--blueColor);
+	padding: 10px;
+	box-shadow: black 5px 5px 5px;
+	background-color: var(--boxColor);
+}
+
+.link-container div .button {
+	color: whitesmoke;
+	text-shadow: black 1px 1px 1px;
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.link-container div:hover {
+	cursor: pointer;
+	background-color: rgba(17, 92, 142, 0.5);
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 0.3;
+	}
+	50% {
+		opacity: 0.6;
+	}
+	75% {
+		opacity: 0.8;
+	}
+	85% {
+		opacity: 0.9;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.body .first-text {
+		font-size: 13px !important;
+	}
+}

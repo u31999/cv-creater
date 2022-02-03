@@ -1,0 +1,128 @@
+@import "../layout/style-res.css";
+
+.form-bart-one {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.show {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	overflow: auto;
+}
+.hide {
+	display: none;
+}
+.error-box {
+	color: red;
+}
+
+.title,
+.sub-title {
+	font-weight: 900;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	font-size: 18px;
+	font-family: monospace;
+	color: var(--header-font-color);
+	text-shadow: black 2px 2px 2px;
+	border: outset 5px var(--blueColor);
+	box-shadow: var(--boxColor) 5px 5px 5px;
+	background-color: rgb(255 207 119 / 0.1);
+	text-align: center;
+	padding: 5px 5px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.show label {
+	font-weight: 900;
+	font-family: monospace;
+	font-size: 18px;
+	color: var(--header-font-color);
+	text-shadow: black 2px 2px 2px;
+}
+.input-container {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+.show input {
+	border-radius: 10px;
+	text-align: center;
+	width: 180px;
+	background-color: rgb(0 0 0 / 70%);
+}
+.show input:focus {
+	background-color: white;
+}
+
+/*hide arrow number, Chrome, Safari, Edge, Opera */
+.show input::-webkit-outer-spin-button,
+.show input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/*hide arrow number, Firefox */
+.show input[type="number"] {
+	-moz-appearance: textfield;
+}
+.btn-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 5px;
+	gap: 10px;
+}
+.next-btn {
+	border: 2px outset var(--blueColor);
+	border-radius: 15px;
+	padding: 5px 20px;
+	box-shadow: black 5px 5px 5px;
+	background-color: var(--boxColor);
+	font-weight: 900;
+	color: var(--header-font-color);
+	text-shadow: black 2px 2px 2px;
+	letter-spacing: 3px;
+}
+.next-btn:hover {
+	cursor: pointer;
+	background-color: rgba(17, 92, 142, 0.5);
+}
+.no-border-sub-title {
+	font-weight: 900;
+	font-family: monospace;
+	font-size: 18px;
+	color: var(--header-font-color);
+	text-shadow: black 2px 2px 2px;
+}
+.about-textarea {
+	border-radius: 10px;
+	text-align: center;
+	background-color: rgb(0 0 0 / 70%);
+	color: var(--header-font-color);
+	padding: 10px;
+}
+
+.about-textarea:focus {
+	background-color: white;
+	color: black;
+}
+.input-with-add {
+	display: flex;
+	gap: 10px;
+}
+.add-container {
+	width: 80%;
+	display: grid;
+	grid-template-columns: 20% auto;
+	color: var(--header-font-color);
+	text-shadow: black 2px 2px 2px;
+}
+.data-container {
+	display: flex;
+	gap: 5px;
+}

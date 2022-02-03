@@ -1,0 +1,31 @@
+.footer {
+	background-color: #333333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-evenly;
+	gap: 5px;
+}
+.text {
+	color: white;
+	font-family: cursive;
+	font-weight: lighter;
+	font-size: 10px;
+	opacity: 0.5;
+}
+.icon {
+	color: orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.theIcon {
+	opacity: 0.5;
+}
+
+.theIcon:hover {
+	cursor: pointer;
+	opacity: 1;
+}

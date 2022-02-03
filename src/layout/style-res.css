@@ -1,0 +1,6 @@
+:root {
+	--blueColor: #115d8e;
+	--boxColor: #343434;
+	--header-font-color: #ffcf77;
+	--fadeCubic: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
