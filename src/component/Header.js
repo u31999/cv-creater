@@ -12,7 +12,7 @@ class Header extends React.Component{
             <div className={classes.logo}>CV-Creater</div>
             <div className={classes.nav}>
             <nav>
-            <NavLink to="/" className={({isActive}) => (isActive) ? ` ${classes.active}`: ''}> Home </NavLink>	
+            <NavLink to="/cv-creater" className={({isActive}) => (isActive) ? ` ${classes.active}`: ''}> Home </NavLink>	
             <NavLink to='/tips' className={({isActive}) => (isActive) ? ` ${classes.active}`: ''}>CV Tips</NavLink>
             <NavLink to='/template-examples' className={({isActive}) => (isActive) ? ` ${classes.active}`: ''}>Template Examples</NavLink>
             </nav>

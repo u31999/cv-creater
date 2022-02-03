@@ -43,7 +43,7 @@ const Body = class extends React.Component {
     render(){
         return (
             <Routes>
-            <Route  path='/' element={<HomePage />} />
+            <Route  path='/cv-creater' element={<HomePage />} />
             <Route  path='/tips' element={<TipsPage />} /> 
             <Route  path='/template-examples' element={<TemplateExamplesPage props={templates} />} />
             <Route path='choose-template' element={<ChooseTemplate props={templates} />}></Route> 
