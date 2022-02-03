@@ -41,7 +41,9 @@ const templates = [
 
 const Body = class extends React.Component {
     render(){
-        return (
+        
+        return (<div>
+            <HomePage />
             <Routes>
             <Route  path='/cv-creater' element={<HomePage />} />
             <Route  path='/tips' element={<TipsPage />} /> 
@@ -54,6 +56,7 @@ const Body = class extends React.Component {
             <Route path='/form-five' element={<FormFive />}></Route>
             <Route path='/result-page' element= {<ResultPage />}></Route>
             </Routes>
+            </div>
         )
     }
 }
